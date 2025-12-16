@@ -1,0 +1,76 @@
+pyboost_multihead:
+  InvincibleJellyfish:
+    lr: 0.01
+    subsample: 0.9
+    colsample: 0.8
+    max_depth: 7
+  JovialSwallow:
+    lr: 0.01
+    subsample: 0.8
+    colsample: 0.8
+    max_depth: 8
+  LyricalHare:
+    lr: 0.01
+    subsample: 0.8
+    colsample: 0.8
+    max_depth: 8
+  NiftyGoldfinch:
+    lr: 0.01
+    subsample: 0.8
+    colsample: 0.8
+    max_depth: 8
+  PleasantMeerkat:
+    lr: 0.01
+    subsample: 0.8
+    colsample: 0.8
+    max_depth: 9
+  ReflectiveManatee:
+    lr: 0.01
+    subsample: 0.8
+    colsample: 0.8
+    max_depth: 8
+  SparklingTapir:
+    lr: 0.01
+    subsample: 0.8
+    colsample: 0.8
+    max_depth: 8
+  TranquilPanther:
+    lr: 0.01
+    subsample: 0.8
+    colsample: 0.9
+    max_depth: 9
+  UppityFerret:
+    lr: 0.01
+    subsample: 0.9
+    colsample: 0.8
+    max_depth: 7
+  AdaptableSnail:
+    lr: 0.03
+    subsample: 0.8
+    colsample: 0.8
+    max_depth: 6
+  BoisterousParrot:
+    lr: 0.03
+    subsample: 0.8
+    colsample: 0.8
+    max_depth: 6
+  CautiousGiraffe:
+    lr: 0.03
+    subsample: 0.8
+    colsample: 0.8
+    max_depth: 6
+  DeliriousFly:
+    lr: 0.03
+    subsample: 0.8
+    colsample: 0.8
+    max_depth: 6
+  ElegantMink:
+    lr: 0.03
+    subsample: 0.8
+    colsample: 0.8
+    max_depth: 6
+  GroovyShrew:
+    lr: 0.03
+    subsample: 0.8
+    colsample: 0.8
+    max_depth: 6

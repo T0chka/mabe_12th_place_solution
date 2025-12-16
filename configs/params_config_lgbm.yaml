@@ -1,0 +1,76 @@
+lgbm_multihead:
+  AdaptableSnail:
+    learning_rate: 0.044
+    num_leaves: 69
+    feature_fraction: 0.61
+    bagging_fraction: 0.78
+  BoisterousParrot:
+    learning_rate: 0.023
+    num_leaves: 96
+    feature_fraction: 0.87
+    bagging_fraction: 0.61
+  CautiousGiraffe:
+    learning_rate: 0.021
+    num_leaves: 49
+    feature_fraction: 0.81
+    bagging_fraction: 0.78
+  DeliriousFly:
+    learning_rate: 0.025
+    num_leaves: 67
+    feature_fraction: 0.63
+    bagging_fraction: 0.66
+  ElegantMink:
+    learning_rate: 0.02
+    num_leaves: 85
+    feature_fraction: 0.67
+    bagging_fraction: 0.6
+  GroovyShrew:
+    learning_rate: 0.02
+    num_leaves: 85
+    feature_fraction: 0.67
+    bagging_fraction: 0.6
+  InvincibleJellyfish:
+    learning_rate: 0.038
+    num_leaves: 56
+    feature_fraction: 0.68
+    bagging_fraction: 0.67
+  JovialSwallow:
+    learning_rate: 0.022
+    num_leaves: 79
+    feature_fraction: 0.78
+    bagging_fraction: 0.64
+  LyricalHare:
+    learning_rate: 0.056
+    num_leaves: 74
+    feature_fraction: 0.6
+    bagging_fraction: 0.87
+  NiftyGoldfinch:
+    learning_rate: 0.023
+    num_leaves: 84
+    feature_fraction: 0.66
+    bagging_fraction: 0.61
+  PleasantMeerkat:
+    learning_rate: 0.02
+    num_leaves: 86
+    feature_fraction: 0.79
+    bagging_fraction: 0.6
+  ReflectiveManatee:
+    learning_rate: 0.04
+    num_leaves: 83
+    feature_fraction: 0.75
+    bagging_fraction: 0.85
+  SparklingTapir:
+    learning_rate: 0.034
+    num_leaves: 69
+    feature_fraction: 0.79
+    bagging_fraction: 0.85
+  TranquilPanther:
+    learning_rate: 0.029
+    num_leaves: 66
+    feature_fraction: 0.84
+    bagging_fraction: 0.82
+  UppityFerret:
+    learning_rate: 0.021
+    num_leaves: 50
+    feature_fraction: 0.79
+    bagging_fraction: 0.77

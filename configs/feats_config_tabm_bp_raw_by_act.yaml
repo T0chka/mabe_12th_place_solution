@@ -1,0 +1,748 @@
+PleasantMeerkat:
+  chase:
+    window_cols:
+    - ag_speed_total
+    - head_approach
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  attack:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_forward
+    - head_approach
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  escape:
+    window_cols:
+    - ag_v_forward
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+  follow:
+    window_cols:
+    - ag_v_forward
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+NiftyGoldfinch:
+  chase:
+    window_cols:
+    - ag_speed_total
+    - head_approach
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  attack:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_forward
+    - head_approach
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  rear:
+    window_cols:
+    - ag_forward_consistency
+    - align_agent_los
+    - head_approach
+    - m1m2+nose+tail_base
+  approach:
+    window_cols:
+    - ag_speed_total
+    - ag_v_forward
+    - head_approach
+    - m1m2+nose+tail_base
+    - turn_toward
+  sniff:
+    window_cols:
+    - ag_a_forward
+    - align_agent_los
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+  selfgroom:
+    window_cols:
+    - ag_forward_consistency
+    - align_agent_los
+    - head_approach
+    - m1m2+nose+tail_base
+  sniffgenital:
+    window_cols:
+    - ag_speed_total
+    - ag_v_forward
+    - head_approach
+    - m1m2+nose+tail_base
+    - turn_toward
+  sniffface:
+    window_cols:
+    - ag_turn_smoothness
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - turn_toward
+  escape:
+    window_cols:
+    - ag_v_forward
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+  dig:
+    window_cols:
+    - ag_forward_consistency
+    - align_agent_los
+    - head_approach
+    - m1m2+nose+tail_base
+  climb:
+    window_cols:
+    - ag_v_forward
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+  defend:
+    window_cols:
+    - ag_turn_smoothness
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - turn_toward
+  flinch:
+    window_cols:
+    - ag_speed_total
+    - ag_v_forward
+    - head_approach
+    - m1m2+nose+tail_base
+    - turn_toward
+  follow:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - turn_toward
+  exploreobject:
+    window_cols:
+    - ag_turn_smoothness
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - turn_toward
+  biteobject:
+    window_cols:
+    - ag_turn_smoothness
+    - head_approach
+    - m1m2+nose+tail_base
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  tussle:
+    window_cols:
+    - ag_forward_consistency
+    - align_agent_los
+    - head_approach
+    - m1m2+nose+tail_base
+CautiousGiraffe:
+  chase:
+    window_cols:
+    - ag_forward_consistency
+    - align_agent_los
+    - head_approach
+    - m1m2+nose+tail_base
+  sniff:
+    window_cols:
+    - ag_forward_consistency
+    - align_agent_los
+    - head_approach
+    - m1m2+nose+tail_base
+  sniffgenital:
+    window_cols:
+    - ag_forward_consistency
+    - align_agent_los
+    - head_approach
+    - m1m2+nose+tail_base
+  sniffbody:
+    window_cols:
+    - ag_a_forward
+    - align_agent_los
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+  reciprocalsniff:
+    window_cols:
+    - ag_v_forward
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+  escape:
+    window_cols:
+    - ag_forward_consistency
+    - align_agent_los
+    - head_approach
+    - m1m2+nose+tail_base
+JovialSwallow:
+  chase:
+    window_cols:
+    - ag_a_forward
+    - align_agent_los
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+  attack:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - turn_toward
+  sniff:
+    window_cols:
+    - ag_v_forward
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+LyricalHare:
+  attack:
+    window_cols:
+    - ag_forward_consistency
+    - align_agent_los
+    - head_approach
+    - m1m2+nose+tail_base
+  rear:
+    window_cols:
+    - ag_turn_smoothness
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - turn_toward
+  approach:
+    window_cols:
+    - ag_speed_total
+    - head_approach
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  sniff:
+    window_cols:
+    - ag_v_forward
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+  escape:
+    window_cols:
+    - ag_speed_total
+    - ag_v_forward
+    - head_approach
+    - m1m2+nose+tail_base
+    - turn_toward
+  defend:
+    window_cols:
+    - ag_a_forward
+    - ag_curvature
+    - head_approach
+    - m1m2+nose+nose
+    - r_head
+  freeze:
+    window_cols:
+    - ag_a_forward
+    - align_agent_los
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+DeliriousFly:
+  attack:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_forward
+    - head_approach
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  sniff:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - turn_toward
+  dominance:
+    window_cols:
+    - ag_a_forward
+    - align_agent_los
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+SparklingTapir:
+  attack:
+    window_cols:
+    - ag_turn_smoothness
+    - head_approach
+    - m1m2+nose+tail_base
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  mount:
+    window_cols:
+    - ag_turn_smoothness
+    - head_approach
+    - m1m2+nose+tail_base
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  escape:
+    window_cols:
+    - ag_turn_smoothness
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - turn_toward
+  defend:
+    window_cols:
+    - ag_turn_smoothness
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - turn_toward
+ElegantMink:
+  attack:
+    window_cols:
+    - ag_turn_smoothness
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - turn_toward
+  sniff:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_forward
+    - head_approach
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  mount:
+    window_cols:
+    - ag_turn_smoothness
+    - head_approach
+    - m1m2+nose+tail_base
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  attemptmount:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_forward
+    - head_approach
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  intromit:
+    window_cols:
+    - ag_turn_smoothness
+    - head_approach
+    - m1m2+nose+tail_base
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  allogroom:
+    window_cols:
+    - ag_v_forward
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+InvincibleJellyfish:
+  attack:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - turn_toward
+  sniff:
+    window_cols:
+    - ag_forward_consistency
+    - align_agent_los
+    - head_approach
+    - m1m2+nose+tail_base
+  selfgroom:
+    window_cols:
+    - ag_forward_consistency
+    - align_agent_los
+    - head_approach
+    - m1m2+nose+tail_base
+  sniffgenital:
+    window_cols:
+    - ag_speed_total
+    - ag_v_forward
+    - head_approach
+    - m1m2+nose+tail_base
+    - turn_toward
+  escape:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_forward
+    - head_approach
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  allogroom:
+    window_cols:
+    - ag_speed_total
+    - head_approach
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  dig:
+    window_cols:
+    - ag_a_forward
+    - align_agent_los
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+  dominancegroom:
+    window_cols:
+    - ag_turn_smoothness
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - turn_toward
+ReflectiveManatee:
+  attack:
+    window_cols:
+    - ag_v_forward
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+  sniff:
+    window_cols:
+    - ag_v_forward
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+GroovyShrew:
+  rear:
+    window_cols:
+    - ag_speed_total
+    - ag_v_forward
+    - head_approach
+    - m1m2+nose+tail_base
+    - turn_toward
+  approach:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_forward
+    - head_approach
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  sniff:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_forward
+    - head_approach
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  selfgroom:
+    window_cols:
+    - ag_speed_total
+    - ag_v_forward
+    - head_approach
+    - m1m2+nose+tail_base
+    - turn_toward
+  sniffgenital:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - turn_toward
+  attemptmount:
+    window_cols:
+    - ag_forward_consistency
+    - align_agent_los
+    - head_approach
+    - m1m2+nose+tail_base
+  escape:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_forward
+    - head_approach
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  dig:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_forward
+    - head_approach
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  run:
+    window_cols:
+    - ag_speed_total
+    - ag_v_forward
+    - head_approach
+    - m1m2+nose+tail_base
+    - turn_toward
+  rest:
+    window_cols:
+    - ag_turn_smoothness
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - turn_toward
+  climb:
+    window_cols:
+    - ag_speed_total
+    - ag_v_forward
+    - head_approach
+    - m1m2+nose+tail_base
+    - turn_toward
+  defend:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - turn_toward
+TranquilPanther:
+  rear:
+    window_cols:
+    - ag_v_forward
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+  sniff:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - turn_toward
+  mount:
+    window_cols:
+    - ag_turn_smoothness
+    - head_approach
+    - m1m2+nose+tail_base
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  selfgroom:
+    window_cols:
+    - ag_v_forward
+    - ag_v_lateral
+    - head_approach
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+  sniffgenital:
+    window_cols:
+    - ag_turn_smoothness
+    - head_approach
+    - m1m2+nose+tail_base
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  intromit:
+    window_cols:
+    - ag_curvature
+    - ag_forward_consistency
+    - ag_v_forward
+    - head_approach
+    - m1m2+tail_base+tail_base
+    - turn_toward
+BoisterousParrot:
+  shepherd:
+    window_cols:
+    - ag_forward_consistency
+    - align_agent_los
+    - head_approach
+    - m1m2+nose+tail_base
+UppityFerret:
+  sniffgenital:
+    window_cols:
+    - ag_speed_total
+    - head_approach
+    - m1m2+tail_base+tail_base
+    - turn_toward
+  reciprocalsniff:
+    window_cols:
+    - ag_a_forward
+    - align_agent_los
+    - m1m2+nose+nose
+    - m1m2+nose+tail_base
+    - r_head
+  huddle:
+    window_cols:
+    - ag_a_forward
+    - ag_curvature
+    - head_approach
+    - m1m2+nose+nose
+    - r_head
+AdaptableSnail:
+  chase:
+    window_cols:
+    - ag_a_forward
+    - ag_speed_total
+    - ag_curvature
+    - ag_forward_consistency
+    - dr_center
+    - align_agent_los
+    - ag_v_lateral
+    - ag_turn_smoothness
+    - head_approach
+    - ag_ear_gap
+    - ag_v_forward
+    - ag_mouse_body_len
+    - ag_turn_agent
+    - m1m2+nose+tail_base
+    - m1m2+nose+nose
+    - turn_toward
+    - r_head
+    - m1m2+tail_base+tail_base
+    - tg_v_forward
+  avoid:
+    window_cols:
+    - ag_a_forward
+    - ag_speed_total
+    - ag_curvature
+    - ag_forward_consistency
+    - dr_center
+    - align_agent_los
+    - ag_v_lateral
+    - ag_turn_smoothness
+    - head_approach
+    - ag_ear_gap
+    - ag_v_forward
+    - ag_mouse_body_len
+    - ag_turn_agent
+    - m1m2+nose+tail_base
+    - m1m2+nose+nose
+    - turn_toward
+    - r_head
+    - m1m2+tail_base+tail_base
+    - tg_v_forward
+  attack:
+    window_cols:
+    - ag_a_forward
+    - ag_speed_total
+    - ag_curvature
+    - ag_forward_consistency
+    - dr_center
+    - align_agent_los
+    - ag_v_lateral
+    - ag_turn_smoothness
+    - head_approach
+    - ag_ear_gap
+    - ag_v_forward
+    - ag_mouse_body_len
+    - ag_turn_agent
+    - m1m2+nose+tail_base
+    - m1m2+nose+nose
+    - turn_toward
+    - r_head
+    - m1m2+tail_base+tail_base
+    - tg_v_forward
+  chaseattack:
+    window_cols:
+    - ag_a_forward
+    - ag_speed_total
+    - ag_curvature
+    - ag_forward_consistency
+    - dr_center
+    - align_agent_los
+    - ag_v_lateral
+    - ag_turn_smoothness
+    - head_approach
+    - ag_ear_gap
+    - ag_v_forward
+    - ag_mouse_body_len
+    - ag_turn_agent
+    - m1m2+nose+tail_base
+    - m1m2+nose+nose
+    - turn_toward
+    - r_head
+    - m1m2+tail_base+tail_base
+    - tg_v_forward
+  rear:
+    window_cols:
+    - ag_a_forward
+    - ag_speed_total
+    - ag_curvature
+    - ag_forward_consistency
+    - dr_center
+    - align_agent_los
+    - ag_v_lateral
+    - ag_turn_smoothness
+    - head_approach
+    - ag_ear_gap
+    - ag_v_forward
+    - ag_mouse_body_len
+    - ag_turn_agent
+    - m1m2+nose+tail_base
+    - m1m2+nose+nose
+    - turn_toward
+    - r_head
+    - m1m2+tail_base+tail_base
+    - tg_v_forward
+  approach:
+    window_cols:
+    - ag_a_forward
+    - ag_speed_total
+    - ag_curvature
+    - ag_forward_consistency
+    - dr_center
+    - align_agent_los
+    - ag_v_lateral
+    - ag_turn_smoothness
+    - head_approach
+    - ag_ear_gap
+    - ag_v_forward
+    - ag_mouse_body_len
+    - ag_turn_agent
+    - m1m2+nose+tail_base
+    - m1m2+nose+nose
+    - turn_toward
+    - r_head
+    - m1m2+tail_base+tail_base
+    - tg_v_forward
+  submit:
+    window_cols:
+    - ag_a_forward
+    - ag_speed_total
+    - ag_curvature
+    - ag_forward_consistency
+    - dr_center
+    - align_agent_los
+    - ag_v_lateral
+    - ag_turn_smoothness
+    - head_approach
+    - ag_ear_gap
+    - ag_v_forward
+    - ag_mouse_body_len
+    - ag_turn_agent
+    - m1m2+nose+tail_base
+    - m1m2+nose+nose
+    - turn_toward
+    - r_head
+    - m1m2+tail_base+tail_base
+    - tg_v_forward

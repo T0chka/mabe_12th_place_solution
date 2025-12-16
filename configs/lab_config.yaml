@@ -1,0 +1,248 @@
+# Lab-specific configuration parameters
+# Used by both R and Python pipelines
+
+labs:
+  # Excluded labs (not in test)
+  excluded:
+    - CRIM13
+    - CalMS21_task2
+    - CalMS21_task1
+    - CalMS21_supplemental
+    - MABe22_keypoints
+    - MABe22_movies
+
+  with_na:
+    - TranquilPanther
+    - PleasantMeerkat
+    - JovialSwallow
+    - GroovyShrew
+    - ElegantMink
+    - CautiousGiraffe
+    - AdaptableSnail
+
+# Model-specific parameters
+xgb_multihead:
+  lag_secs:
+    AdaptableSnail: 0.5
+    BoisterousParrot: 0.9
+    CautiousGiraffe: 0.8
+    DeliriousFly: 0.1
+    ElegantMink: 1.0
+    GroovyShrew: 0.2
+    InvincibleJellyfish: 0.1
+    JovialSwallow: 1.0
+    LyricalHare: 0.2
+    NiftyGoldfinch: 0.2
+    PleasantMeerkat: 0.2
+    ReflectiveManatee: 0.1
+    SparklingTapir: 0.1
+    TranquilPanther: 0.5
+    UppityFerret: 0.8
+  
+  sample_neg_percent:
+    AdaptableSnail: 10
+    BoisterousParrot: 10
+    CautiousGiraffe: 15
+    DeliriousFly: 15
+    ElegantMink: 10
+    GroovyShrew: 20
+    InvincibleJellyfish: 10
+    JovialSwallow: 60
+    LyricalHare: 10
+    NiftyGoldfinch: 70
+    PleasantMeerkat: 90
+    ReflectiveManatee: 70
+    SparklingTapir: 40
+    TranquilPanther: 100
+    UppityFerret: 100
+  
+  sample_unl_percent:
+    AdaptableSnail: 0
+    CautiousGiraffe: 60
+    ElegantMink: 0
+    GroovyShrew: 50
+    InvincibleJellyfish: 0
+    LyricalHare: 50
+    PleasantMeerkat: 50
+    SparklingTapir: 0
+    TranquilPanther: 0
+    UppityFerret: 10
+
+lgbm_multihead:
+  lag_secs:
+    AdaptableSnail: 0.1
+    BoisterousParrot: 0.2
+    CautiousGiraffe: 0.4
+    DeliriousFly: 0.1
+    ElegantMink: 0.3
+    GroovyShrew: 0.2
+    InvincibleJellyfish: 0.2
+    JovialSwallow: 0.9
+    LyricalHare: 0.2
+    NiftyGoldfinch: 0.4
+    PleasantMeerkat: 0.3
+    ReflectiveManatee: 0.1
+    SparklingTapir: 0.1
+    TranquilPanther: 0.2
+    UppityFerret: 0.1
+  
+  sample_neg_percent:
+    AdaptableSnail: 10
+    BoisterousParrot: 10
+    CautiousGiraffe: 35
+    DeliriousFly: 65
+    ElegantMink: 35
+    GroovyShrew: 100
+    InvincibleJellyfish: 10
+    JovialSwallow: 55
+    LyricalHare: 100
+    NiftyGoldfinch: 15
+    PleasantMeerkat: 10
+    ReflectiveManatee: 65
+    SparklingTapir: 60
+    TranquilPanther: 10
+    UppityFerret: 100
+  
+  sample_unl_percent:
+    ElegantMink: 65
+    GroovyShrew: 85
+    LyricalHare: 0
+    PleasantMeerkat: 40
+    SparklingTapir: 5
+    TranquilPanther: 5
+    UppityFerret: 0
+
+cat_multihead:
+  lag_secs:
+    AdaptableSnail: 0.5
+    BoisterousParrot: 0.9
+    CautiousGiraffe: 0.8
+    DeliriousFly: 0.1
+    ElegantMink: 1.0
+    GroovyShrew: 0.2
+    InvincibleJellyfish: 0.1
+    JovialSwallow: 1.0
+    LyricalHare: 0.2
+    NiftyGoldfinch: 0.2
+    PleasantMeerkat: 0.2
+    ReflectiveManatee: 0.1
+    SparklingTapir: 0.1
+    TranquilPanther: 0.5
+    UppityFerret: 0.8
+
+  sample_neg_percent:
+    AdaptableSnail: 10
+    BoisterousParrot: 10
+    CautiousGiraffe: 50
+    DeliriousFly: 10
+    ElegantMink: 50
+    GroovyShrew: 20
+    InvincibleJellyfish: 10
+    JovialSwallow: 10
+    LyricalHare: 10
+    NiftyGoldfinch: 30
+    PleasantMeerkat: 10
+    ReflectiveManatee: 50
+    SparklingTapir: 30
+    TranquilPanther: 30
+    UppityFerret: 100
+
+  sample_unl_percent:
+    BoisterousParrot: 40
+    CautiousGiraffe: 50
+    DeliriousFly: 30
+    ElegantMink: 10
+    GroovyShrew: 10
+    InvincibleJellyfish: 10
+    JovialSwallow: 40
+    LyricalHare: 30
+    NiftyGoldfinch: 10
+    PleasantMeerkat: 10
+    ReflectiveManatee: 40
+    SparklingTapir: 10
+    TranquilPanther: 30
+    UppityFerret: 20
+
+tabm_multiclass:
+  lag_secs:
+    AdaptableSnail: 0.5
+    BoisterousParrot: 0.9
+    CautiousGiraffe: 0.8
+    DeliriousFly: 0.1
+    ElegantMink: 1.0
+    GroovyShrew: 0.2
+    InvincibleJellyfish: 0.1
+    JovialSwallow: 1.0
+    LyricalHare: 0.2
+    NiftyGoldfinch: 0.2
+    PleasantMeerkat: 0.2
+    ReflectiveManatee: 0.1
+    SparklingTapir: 0.1
+    TranquilPanther: 0.5
+    UppityFerret: 0.8
+
+  sample_unl_percent:
+    AdaptableSnail: 10
+    BoisterousParrot: 20
+    CautiousGiraffe: 20
+    DeliriousFly: 20
+    ElegantMink: 25
+    GroovyShrew: 30
+    InvincibleJellyfish: 5
+    JovialSwallow: 5
+    LyricalHare: 20
+    NiftyGoldfinch: 20
+    PleasantMeerkat: 20
+    ReflectiveManatee: 30
+    SparklingTapir: 40
+    TranquilPanther: 20
+    UppityFerret: 20
+
+pyboost_multihead:
+  lag_secs:
+    AdaptableSnail: 0.1
+    BoisterousParrot: 1.0
+    CautiousGiraffe: 0.3
+    DeliriousFly: 0.2
+    ElegantMink: 0.7
+    GroovyShrew: 0.3
+    InvincibleJellyfish: 0.6
+    JovialSwallow: 0.2
+    LyricalHare: 0.1
+    NiftyGoldfinch: 0.4
+    PleasantMeerkat: 0.3
+    ReflectiveManatee: 0.2
+    SparklingTapir: 0.1
+    TranquilPanther: 0.1
+    UppityFerret: 0.3
+  
+  sample_neg_percent:
+    AdaptableSnail: 10
+    BoisterousParrot: 10
+    CautiousGiraffe: 40
+    DeliriousFly: 50
+    ElegantMink: 20
+    GroovyShrew: 40
+    InvincibleJellyfish: 10
+    JovialSwallow: 20
+    LyricalHare: 40
+    NiftyGoldfinch: 40
+    PleasantMeerkat: 10
+    ReflectiveManatee: 80
+    SparklingTapir: 20
+    TranquilPanther: 30
+    UppityFerret: 70
+  
+  sample_unl_percent:
+    AdaptableSnail: 0
+    CautiousGiraffe: 15
+    ElegantMink: 0
+    GroovyShrew: 50
+    InvincibleJellyfish: 0
+    LyricalHare: 0
+    NiftyGoldfinch: 15
+    PleasantMeerkat: 0
+    SparklingTapir: 0
+    TranquilPanther: 0
+    UppityFerret: 0
+

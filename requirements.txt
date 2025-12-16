@@ -1,0 +1,31 @@
+# Python version: >=3.11 required (tested with 3.12.3)
+# For PyTorch with CUDA, install separately:
+#   pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+
+# Core data processing
+numpy==2.3.4  # Requires Python >=3.11
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+joblib==1.5.2
+
+# Deep learning (install PyTorch separately with --index-url, see above)
+# torch==2.6.0+cu124
+
+# TabM model dependencies
+tabm==0.0.3
+rtdl-num-embeddings==0.0.12
+
+# Gradient boosting libraries
+lightgbm==4.6.0
+xgboost==3.0.5
+catboost==1.2.8
+py-boost==0.5.2
+cupy-cuda12x==13.6.0
+
+# Configuration and utilities
+PyYAML==6.0.3
+pyarrow==21.0.0
+
+# Hyperparameter tuning
+optuna==4.6.0

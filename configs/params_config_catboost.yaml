@@ -1,0 +1,425 @@
+cat_multihead:
+  BoisterousParrot:
+    shepherd:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+  CautiousGiraffe:
+    chase:
+      learning_rate: 0.0042321
+      depth: 8
+      l2_leaf_reg: 3.3245344
+      subsample: 0.6690291
+    escape:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    reciprocalsniff:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    sniff:
+      learning_rate: 0.0059214
+      depth: 10
+      l2_leaf_reg: 3.9214142
+      subsample: 0.6864323
+    sniffbody:
+      learning_rate: 0.083275
+      depth: 4
+      l2_leaf_reg: 3.9214142
+      subsample: 0.6540082
+    sniffgenital:
+      learning_rate: 0.0026864
+      depth: 7
+      l2_leaf_reg: 0.7275748
+      subsample: 0.8385761
+  DeliriousFly:
+    attack:
+      learning_rate: 0.0576894
+      depth: 6
+      l2_leaf_reg: 0.5875678
+      subsample: 0.5811968
+    dominance:
+      learning_rate: 0.0041851
+      depth: 8
+      l2_leaf_reg: 1.2831832e-05
+      subsample: 0.9323951
+    sniff:
+      learning_rate: 0.0791251
+      depth: 4
+      l2_leaf_reg: 3.7584117
+      subsample: 0.6159145
+  ElegantMink:
+    allogroom:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    attack:
+      learning_rate: 0.0045415
+      depth: 10
+      l2_leaf_reg: 5.4643682e-06
+      subsample: 0.6699555
+    attemptmount:
+      learning_rate: 0.0035403
+      depth: 9
+      l2_leaf_reg: 0.3571138
+      subsample: 0.5556931
+    intromit:
+      learning_rate: 0.0042238
+      depth: 10
+      l2_leaf_reg: 3.3400993
+      subsample: 0.6623183
+    mount:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    sniff:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+  GroovyShrew:
+    approach:
+      learning_rate: 0.0550572
+      depth: 9
+      l2_leaf_reg: 2.3745041
+      subsample: 0.7189269
+    attemptmount:
+      learning_rate: 0.0011222
+      depth: 9
+      l2_leaf_reg: 0.1007884
+      subsample: 0.9350061
+    climb:
+      learning_rate: 0.0640183
+      depth: 10
+      l2_leaf_reg: 6.3054018
+      subsample: 0.5223576
+    defend:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    dig:
+      learning_rate: 0.0728848
+      depth: 5
+      l2_leaf_reg: 0.0724976
+      subsample: 0.7057209
+    escape:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    rear:
+      learning_rate: 0.0550572
+      depth: 9
+      l2_leaf_reg: 2.3745041
+      subsample: 0.7189269
+    rest:
+      learning_rate: 0.157955
+      depth: 5
+      l2_leaf_reg: 6.3743555e-07
+      subsample: 0.7021498
+    run:
+      learning_rate: 0.0662149
+      depth: 4
+      l2_leaf_reg: 3.510634
+      subsample: 0.6368782
+    selfgroom:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    sniff:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    sniffgenital:
+      learning_rate: 0.0550572
+      depth: 9
+      l2_leaf_reg: 2.3745041
+      subsample: 0.7189269
+  InvincibleJellyfish:
+    allogroom:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    attack:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    dig:
+      learning_rate: 0.2438426
+      depth: 6
+      l2_leaf_reg: 0.1335135
+      subsample: 0.7644475
+    dominancegroom:
+      learning_rate: 0.0500074
+      depth: 5
+      l2_leaf_reg: 7.7883295
+      subsample: 0.6963477
+    escape:
+      learning_rate: 0.0791251
+      depth: 4
+      l2_leaf_reg: 3.7584117
+      subsample: 0.6159145
+    selfgroom:
+      learning_rate: 0.083275
+      depth: 4
+      l2_leaf_reg: 5.6466001
+      subsample: 0.6280844
+    sniff:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    sniffgenital:
+      learning_rate: 0.0042899
+      depth: 10
+      l2_leaf_reg: 0.8463173
+      subsample: 0.5077208
+  JovialSwallow:
+    attack:
+      learning_rate: 0.0473243
+      depth: 4
+      l2_leaf_reg: 0.3478569
+      subsample: 0.5077208
+    chase:
+      learning_rate: 0.063981
+      depth: 10
+      l2_leaf_reg: 4.453098e-07
+      subsample: 0.5309292
+    sniff:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+  LyricalHare:
+    approach:
+      learning_rate: 0.0134878
+      depth: 7
+      l2_leaf_reg: 1.4760742e-08
+      subsample: 0.8088177
+    attack:
+      learning_rate: 0.0065606
+      depth: 10
+      l2_leaf_reg: 9.6417399e-05
+      subsample: 0.6988791
+    defend:
+      learning_rate: 0.0544331
+      depth: 10
+      l2_leaf_reg: 7.7329616
+      subsample: 0.7004994
+    escape:
+      learning_rate: 0.0818032
+      depth: 10
+      l2_leaf_reg: 5.193134
+      subsample: 0.6709534
+    freeze:
+      learning_rate: 0.0052068
+      depth: 5
+      l2_leaf_reg: 1.8409346e-05
+      subsample: 0.5478941
+    rear:
+      learning_rate: 0.0722756
+      depth: 10
+      l2_leaf_reg: 0.0022721
+      subsample: 0.6865794
+    sniff:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+  NiftyGoldfinch:
+    approach:
+      learning_rate: 0.004809
+      depth: 10
+      l2_leaf_reg: 0.007251
+      subsample: 0.6536095
+    attack:
+      learning_rate: 0.0706701
+      depth: 10
+      l2_leaf_reg: 5.5509655
+      subsample: 0.6468369
+    biteobject:
+      learning_rate: 0.0544331
+      depth: 5
+      l2_leaf_reg: 7.8231861
+      subsample: 0.5013631
+    chase:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    climb:
+      learning_rate: 0.0407132
+      depth: 4
+      l2_leaf_reg: 6.6759498
+      subsample: 0.8939387
+    defend:
+      learning_rate: 0.0791251
+      depth: 4
+      l2_leaf_reg: 4.7217681e-06
+      subsample: 0.6592519
+    dig:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    escape:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    exploreobject:
+      learning_rate: 0.0196192
+      depth: 6
+      l2_leaf_reg: 2.4043656e-06
+      subsample: 0.8871168
+    flinch:
+      learning_rate: 0.0059214
+      depth: 10
+      l2_leaf_reg: 3.9214142
+      subsample: 0.6864323
+    follow:
+      learning_rate: 0.0050421
+      depth: 9
+      l2_leaf_reg: 0.3454698
+      subsample: 0.7021498
+    rear:
+      learning_rate: 0.0026653
+      depth: 10
+      l2_leaf_reg: 1.0863228e-05
+      subsample: 0.5077208
+    selfgroom:
+      learning_rate: 0.0791251
+      depth: 4
+      l2_leaf_reg: 3.7584117
+      subsample: 0.6159145
+    sniff:
+      learning_rate: 0.0071923
+      depth: 10
+      l2_leaf_reg: 0.6789034
+      subsample: 0.6314437
+    sniffface:
+      learning_rate: 0.0417277
+      depth: 5
+      l2_leaf_reg: 0.5740639
+      subsample: 0.7069405
+    sniffgenital:
+      learning_rate: 0.0011222
+      depth: 9
+      l2_leaf_reg: 0.1007884
+      subsample: 0.9350061
+    tussle:
+      learning_rate: 0.0127787
+      depth: 7
+      l2_leaf_reg: 0.0016043
+      subsample: 0.70167
+  PleasantMeerkat:
+    attack:
+      learning_rate: 0.002395
+      depth: 10
+      l2_leaf_reg: 1.0646134
+      subsample: 0.5580402
+    chase:
+      learning_rate: 0.0791251
+      depth: 4
+      l2_leaf_reg: 3.7584117
+      subsample: 0.6159145
+    escape:
+      learning_rate: 0.0500074
+      depth: 5
+      l2_leaf_reg: 7.7883295
+      subsample: 0.6963477
+    follow:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+  ReflectiveManatee:
+    attack:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    sniff:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+  SparklingTapir:
+    attack:
+      learning_rate: 0.2438426
+      depth: 6
+      l2_leaf_reg: 0.1335135
+      subsample: 0.7644475
+    defend:
+      learning_rate: 0.0059214
+      depth: 10
+      l2_leaf_reg: 3.9214142
+      subsample: 0.6864323
+    escape:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    mount:
+      learning_rate: 0.0456059
+      depth: 10
+      l2_leaf_reg: 1.1878695e-06
+      subsample: 0.5077208
+  TranquilPanther:
+    intromit:
+      learning_rate: 0.250837
+      depth: 4
+      l2_leaf_reg: 3.510634
+      subsample: 0.6572383
+    mount:
+      learning_rate: 0.1518106
+      depth: 4
+      l2_leaf_reg: 1.6605305e-07
+      subsample: 0.7087232
+    rear:
+      learning_rate: 0.0050328
+      depth: 10
+      l2_leaf_reg: 0.0054459
+      subsample: 0.6699555
+    selfgroom:
+      learning_rate: 0.0043581
+      depth: 4
+      l2_leaf_reg: 6.413086e-06
+      subsample: 0.9921819
+    sniff:
+      learning_rate: 0.0328273
+      depth: 8
+      l2_leaf_reg: 3.1169706
+      subsample: 0.8409101
+    sniffgenital:
+      learning_rate: 0.1496256
+      depth: 6
+      l2_leaf_reg: 0.3454698
+      subsample: 0.8332691
+  UppityFerret:
+    huddle:
+      learning_rate: 0.0864592
+      depth: 4
+      l2_leaf_reg: 0.0776402
+      subsample: 0.6662577
+    reciprocalsniff:
+      learning_rate: 0.0053657
+      depth: 4
+      l2_leaf_reg: 2.5959149e-06
+      subsample: 0.6159145
+    sniffgenital:
+      learning_rate: 0.0389003
+      depth: 10
+      l2_leaf_reg: 0.0087058
+      subsample: 0.6669921
